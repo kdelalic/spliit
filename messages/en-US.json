@@ -291,6 +291,43 @@
       "retry": "Retry"
     }
   },
+  "ImportCsv": {
+    "triggerTitle": "Import CSV statement",
+    "Dialog": {
+      "title": "Import CSV Statement",
+      "description": "Import expenses from a bank credit card CSV statement.",
+      "selectFile": "Select CSV file",
+      "changeFile": "Change file",
+      "formatLabel": "Bank format",
+      "formatAuto": "Auto-detect",
+      "paidByLabel": "Who paid?",
+      "paidByPlaceholder": "Select participant",
+      "selectAll": "Select all",
+      "deselectAll": "Deselect all",
+      "chargesOnly": "Charges only",
+      "date": "Date",
+      "merchant": "Description",
+      "amount": "Amount",
+      "credit": "credit",
+      "summary": "{selected} of {total} transactions selected",
+      "totalAmount": "Total: {amount}",
+      "import": "Import {count} expenses",
+      "importing": "Importing…",
+      "noTransactionsSelected": "No transactions selected"
+    },
+    "SuccessToast": {
+      "title": "Import complete",
+      "description": "{count} expenses imported successfully."
+    },
+    "ErrorToast": {
+      "title": "Import failed",
+      "description": "An error occurred while importing expenses. Please try again.",
+      "retry": "Retry"
+    },
+    "ParseError": {
+      "title": "Invalid CSV format"
+    }
+  },
   "Balances": {
     "title": "Balances",
     "description": "This is the amount that each participant paid or was paid for.",
